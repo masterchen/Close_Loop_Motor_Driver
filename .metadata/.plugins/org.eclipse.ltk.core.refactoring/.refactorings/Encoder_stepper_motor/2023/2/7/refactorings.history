@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Encoder_stepper_motor/G_code_stepper_motor.ioc&apos; to &apos;Encoder_stepper_motor.ioc&apos;" description="Rename resource &apos;G_code_stepper_motor.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="G_code_stepper_motor.ioc" name="Encoder_stepper_motor.ioc" stamp="1676280398216" updateReferences="true"/>
+</session>

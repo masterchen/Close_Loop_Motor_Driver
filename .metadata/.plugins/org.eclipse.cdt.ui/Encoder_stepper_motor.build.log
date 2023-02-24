@@ -1,0 +1,18 @@
+20:25:13 **** Incremental Build of configuration Debug for project Encoder_stepper_motor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/UART_helper.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/UART_helper.d" -MT"Core/Src/UART_helper.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/UART_helper.o"
+arm-none-eabi-gcc "../Core/Src/stepper.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stepper.d" -MT"Core/Src/stepper.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stepper.o"
+arm-none-eabi-gcc -o "Encoder_stepper_motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Ajith Pinninti\Documents\Neuranics_Lab)Pvt_Ltd_Office_word\Z_motor_driver\Close_Loop_driver\Encoder_stepper_motor\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Encoder_stepper_motor.map" -Wl,--gc-sections -static -u_printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Encoder_stepper_motor.elf
+ 
+arm-none-eabi-size   Encoder_stepper_motor.elf 
+arm-none-eabi-objdump -h -S  Encoder_stepper_motor.elf  > "Encoder_stepper_motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  45304	    572	   2252	  48128	   bc00	Encoder_stepper_motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: Encoder_stepper_motor.list
+ 
+
+20:25:14 Build Finished. 0 errors, 0 warnings. (took 850ms)
+

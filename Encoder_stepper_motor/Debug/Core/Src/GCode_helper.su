@@ -1,0 +1,5 @@
+../Core/Src/GCode_helper.c:11:6:Setup_Absolute_position	32	static
+../Core/Src/GCode_helper.c:41:6:Setup_Relative_position	32	static
+../Core/Src/GCode_helper.c:65:6:Homing_motor	16	static
+../Core/Src/GCode_helper.c:77:6:Homing_completion	8	static
+../Core/Src/GCode_helper.c:86:6:Run_Motor	8	static

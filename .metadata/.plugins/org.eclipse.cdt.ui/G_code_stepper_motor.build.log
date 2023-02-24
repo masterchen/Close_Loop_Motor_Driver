@@ -1,0 +1,10 @@
+16:22:56 **** Incremental Build of configuration Debug for project G_code_stepper_motor ****
+make -j12 all 
+arm-none-eabi-size   G_code_stepper_motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  45280	    572	   2244	  48096	   bbe0	G_code_stepper_motor.elf
+Finished building: default.size.stdout
+ 
+
+16:22:57 Build Finished. 0 errors, 0 warnings. (took 214ms)
+

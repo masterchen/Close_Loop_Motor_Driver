@@ -1,0 +1,5 @@
+../Core/Src/LedDriver.c:43:6:dectoint	24	static
+../Core/Src/LedDriver.c:58:6:split	32	static
+../Core/Src/LedDriver.c:88:6:dectobin	104	static
+../Core/Src/LedDriver.c:116:6:send_function	24	static
+../Core/Src/LedDriver.c:137:6:stop_function	16	static
