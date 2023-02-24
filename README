@@ -1,0 +1,3 @@
+Here's the implementation of the close loop stepper motor controlling algorithm which getting feedback from the Linear encoder which has resolution of 1 micrometer.
+
+This implementation is happening with STM32 H7A3ZI2 controller with CVD518B-K step/dir motor driver 
